@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<label for="firstName">First Name:</label>
+	<input type="text" name="firstName" id="firstName" required placeholder="John">
+	<label for="lastName">Last Name:</label>
+	<input type="text" name="lastName" id="lastName" required placeholder="Smith">
+	<div>
+		<label for="Male">Male</label>
+		<input type="radio" id="Male" name="gender" value="male">
+		<label for="Female">Female</label>
+		<input type="radio" id= "Female" name="gender" value="female">
+		<label for="Other">Other</label>
+		<input type="radio" id="Other" name="gender" value="other">
+	</div>
+	<div>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" placeholder="your email" required >
+		<label for="password">Password:</label>
+		<input type="password" name="password" id="password"   pattern=".{4,8}" required title="Password must be 4-8 digits">
+	</div>
+	<div>
+		<label>Birthday:
+		<select name="month">
+			<option>month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+		</select>
+		<select month="day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+		</select>
+		<select month="year">
+		<option>Year</option>
+		<option>1992</option>
+		<option>1993</option>
+		</select>
+		</label>
+	</div>
+	<div>
+		<label for="terms">I agree to the terms and cinditions</label>
+		<input type="checkbox" name="tems" id="terms" >
+	</div>
+	<input type="submit" >
+</form>
+	
+</body>
+</html>

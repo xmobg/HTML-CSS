@@ -1,0 +1,13 @@
+body{
+	background: orange;
+}
+#import{
+	background-color: yellow;
+	border:5px solid green;
+}
+.playing{
+	text-decoration: line-through;
+}
+.programming{
+	text-decoration: underline;
+}
